@@ -3454,7 +3454,7 @@ bcm_format_flags(const bcm_bit_desc_t *bd, uint32 flags, char* buf, uint len)
 	int i;
 	char* p = buf;
 	char hexstr[16];
-	uint slen = 0, nlen = 0;
+	uint __maybe_unused slen = 0, nlen = 0;
 	uint32 bit;
 	const char* name;
 

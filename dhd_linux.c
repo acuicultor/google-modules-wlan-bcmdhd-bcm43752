@@ -14269,7 +14269,7 @@ _dhd_module_init(void)
 static int __init
 dhd_module_init(void)
 {
-	int err;
+	int __maybe_unused err;
 
 	err = _dhd_module_init();
 #ifdef DHD_SUPPORT_HDM
